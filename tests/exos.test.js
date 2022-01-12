@@ -1,4 +1,4 @@
-const { ex1, ex2, ex3, ex5 } = require("../exos");
+const { ex1, ex2, ex3, ex4, ex5, ex6 } = require("../exos");
 
 const s1TrueArgs = [
   {
@@ -74,6 +74,16 @@ describe("Exercise 3", () => {
   });
 });
 
+describe("Exercise 4", () => {
+  it("should return the number of buildings with a west view", () => {
+    expect(ex4([3, 7, 8, 3, 6, 1])).toBe(3);
+    expect(ex4([1, 4, 5, 8])).toBe(1);
+    expect(ex4([9, 8, 7, 6, 5, 4, 3, 2])).toBe(8);
+    expect(ex4([9, 8, 7, 6, 5, 4, 3, 10])).toBe(1);
+    expect(ex4([1])).toBe(1);
+  });
+});
+
 describe("Exercise 5", () => {
   it("should return true if the sum of two numbers in the array is equal to k", () => {
     s1TrueArgs.forEach((o) => {
@@ -84,5 +94,15 @@ describe("Exercise 5", () => {
     s1FalseArgs.forEach((o) => {
       expect(ex5(o.array, o.k)).toBe(false);
     });
+  });
+});
+
+describe("Exercise 6", () => {
+  it("should return the number of buildings with a west view", () => {
+    expect(ex6([3, 7, 8, 3, 6, 1])).toBe(3);
+    expect(ex6([1, 4, 5, 8])).toBe(1);
+    expect(ex6([9, 8, 7, 6, 5, 4, 3, 2])).toBe(8);
+    expect(ex6([9, 8, 7, 6, 5, 4, 3, 10])).toBe(1);
+    expect(ex6([1])).toBe(1);
   });
 });

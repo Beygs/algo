@@ -92,6 +92,21 @@ const mergeSort = (array) => {
   return merge(arr1, arr2);
 };
 
+const main = () => {
+  const fs = require('fs');
+  const fileName = process.argv[2];
+  
+  try {
+    if (fileName === undefined) throw new Error('Veuillez renseigner un nom de fichier.')
+    const data = fs.readFileSync(fileName, 'utf8').split(' ').map(e => Number(e));
+    console.log("mergeSort : " + mergeSort(data));
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+main();
+
 module.exports = {
   isSorted,
   bubbleSort,

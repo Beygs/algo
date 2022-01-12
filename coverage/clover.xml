@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641921566598" clover="3.2.0">
-  <project timestamp="1641921566598" name="All files">
-    <metrics statements="85" coveredstatements="85" conditionals="43" coveredconditionals="43" methods="13" coveredmethods="13" elements="141" coveredelements="141" complexity="0" loc="85" ncloc="85" packages="1" files="2" classes="2"/>
+<coverage generated="1642012169980" clover="3.2.0">
+  <project timestamp="1642012169980" name="All files">
+    <metrics statements="95" coveredstatements="93" conditionals="42" coveredconditionals="41" methods="16" coveredmethods="15" elements="153" coveredelements="149" complexity="0" loc="95" ncloc="95" packages="1" files="2" classes="2"/>
     <file name="exos.js" path="/home/bobo/THP/NEXT/Week2/tri/exos.js">
-      <metrics statements="21" coveredstatements="21" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="8" type="stmt"/>
       <line num="3" count="20" type="stmt"/>
@@ -17,36 +17,37 @@
       <line num="15" count="77" type="cond" truecount="2" falsecount="0"/>
       <line num="17" count="27" type="cond" truecount="2" falsecount="0"/>
       <line num="19" count="5" type="stmt"/>
-      <line num="22" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="23" count="18" type="stmt"/>
-      <line num="27" count="18" type="cond" truecount="2" falsecount="0"/>
-      <line num="29" count="14" type="stmt"/>
-      <line num="30" count="20" type="cond" truecount="2" falsecount="0"/>
-      <line num="33" count="10" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="8" type="stmt"/>
+      <line num="25" count="8" type="stmt"/>
+      <line num="26" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="4" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
       <line num="36" count="28" type="stmt"/>
       <line num="38" count="1" type="stmt"/>
     </file>
     <file name="sort_algos.js" path="/home/bobo/THP/NEXT/Week2/tri/sort_algos.js">
-      <metrics statements="64" coveredstatements="64" conditionals="32" coveredconditionals="32" methods="8" coveredmethods="8"/>
+      <metrics statements="73" coveredstatements="71" conditionals="34" coveredconditionals="33" methods="10" coveredmethods="9"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="50036" type="cond" truecount="4" falsecount="0"/>
       <line num="3" count="49530" type="cond" truecount="2" falsecount="0"/>
       <line num="4" count="4" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
-      <line num="9" count="8922" type="stmt"/>
-      <line num="10" count="8922" type="stmt"/>
-      <line num="11" count="881318" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="248437" type="stmt"/>
-      <line num="13" count="248437" type="stmt"/>
-      <line num="14" count="248437" type="stmt"/>
-      <line num="17" count="8922" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="8934" type="stmt"/>
+      <line num="10" count="8934" type="stmt"/>
+      <line num="11" count="882506" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="246614" type="stmt"/>
+      <line num="13" count="246614" type="stmt"/>
+      <line num="14" count="246614" type="stmt"/>
+      <line num="17" count="8934" type="cond" truecount="2" falsecount="0"/>
       <line num="20" count="1" type="cond" truecount="1" falsecount="0"/>
       <line num="21" count="10032" type="stmt"/>
       <line num="22" count="10032" type="stmt"/>
       <line num="23" count="10032" type="stmt"/>
       <line num="24" count="505135" type="cond" truecount="2" falsecount="0"/>
-      <line num="25" count="248082" type="stmt"/>
-      <line num="26" count="248082" type="stmt"/>
+      <line num="25" count="247415" type="stmt"/>
+      <line num="26" count="247415" type="stmt"/>
       <line num="29" count="10032" type="cond" truecount="2" falsecount="0"/>
       <line num="32" count="1" type="cond" truecount="1" falsecount="0"/>
       <line num="33" count="10032" type="stmt"/>
@@ -58,30 +59,30 @@
       <line num="40" count="10032" type="stmt"/>
       <line num="42" count="10032" type="cond" truecount="2" falsecount="0"/>
       <line num="45" count="1" type="stmt"/>
-      <line num="46" count="6653" type="stmt"/>
-      <line num="47" count="6653" type="stmt"/>
-      <line num="48" count="6653" type="stmt"/>
-      <line num="49" count="64361" type="cond" truecount="2" falsecount="0"/>
-      <line num="50" count="32178" type="stmt"/>
-      <line num="51" count="32178" type="stmt"/>
-      <line num="52" count="32178" type="stmt"/>
-      <line num="53" count="32178" type="stmt"/>
-      <line num="56" count="6653" type="stmt"/>
-      <line num="57" count="6653" type="stmt"/>
-      <line num="58" count="6653" type="stmt"/>
+      <line num="46" count="6640" type="stmt"/>
+      <line num="47" count="6640" type="stmt"/>
+      <line num="48" count="6640" type="stmt"/>
+      <line num="49" count="65562" type="cond" truecount="2" falsecount="0"/>
+      <line num="50" count="32803" type="stmt"/>
+      <line num="51" count="32803" type="stmt"/>
+      <line num="52" count="32803" type="stmt"/>
+      <line num="53" count="32803" type="stmt"/>
+      <line num="56" count="6640" type="stmt"/>
+      <line num="57" count="6640" type="stmt"/>
+      <line num="58" count="6640" type="stmt"/>
       <line num="61" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="62" count="13412" type="stmt"/>
-      <line num="63" count="13412" type="cond" truecount="2" falsecount="0"/>
-      <line num="64" count="6653" type="stmt"/>
-      <line num="65" count="6653" type="stmt"/>
-      <line num="66" count="6653" type="stmt"/>
-      <line num="67" count="6653" type="stmt"/>
+      <line num="62" count="13386" type="stmt"/>
+      <line num="63" count="13386" type="cond" truecount="2" falsecount="0"/>
+      <line num="64" count="6640" type="stmt"/>
+      <line num="65" count="6640" type="stmt"/>
+      <line num="66" count="6640" type="stmt"/>
+      <line num="67" count="6640" type="stmt"/>
       <line num="70" count="1" type="stmt"/>
       <line num="71" count="9926" type="stmt"/>
       <line num="73" count="9926" type="cond" truecount="2" falsecount="0"/>
-      <line num="74" count="54235" type="cond" truecount="2" falsecount="0"/>
-      <line num="75" count="27988" type="stmt"/>
-      <line num="77" count="26247" type="stmt"/>
+      <line num="74" count="54247" type="cond" truecount="2" falsecount="0"/>
+      <line num="75" count="28065" type="stmt"/>
+      <line num="77" count="26182" type="stmt"/>
       <line num="81" count="9926" type="stmt"/>
       <line num="82" count="9926" type="stmt"/>
       <line num="84" count="9926" type="stmt"/>
@@ -92,6 +93,15 @@
       <line num="91" count="9926" type="stmt"/>
       <line num="92" count="9926" type="stmt"/>
       <line num="95" count="1" type="stmt"/>
+      <line num="96" count="1" type="stmt"/>
+      <line num="97" count="1" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
+      <line num="100" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="101" count="0" type="stmt"/>
+      <line num="102" count="0" type="stmt"/>
+      <line num="104" count="1" type="stmt"/>
+      <line num="108" count="1" type="stmt"/>
+      <line num="110" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
