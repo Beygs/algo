@@ -30,7 +30,7 @@
 
 - Un magnifique algo de merge sort
 - De merveilleuses solutions à de fantastiques problèmes avec de fantasmagoriques fonctions
-- Des tests automatiques à couper le souffle
+- Des tests automatiques à couper le souffle réalisés avec l'incroyable outil [Jest](https://github.com/facebook/jest)
 
 ## Crédits et remerciements
 
