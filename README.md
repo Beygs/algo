@@ -24,7 +24,7 @@
 3. Pour lancer le programme `merge_sort.js` avec `list.txt` (qui contient plusieurs tableaux à trier) 
 >> Petit `node merge_sort.js list.txt` (et ouais)
 4. Pour lancer les tests automatiques (sur le merge_sort et les problèmes d'algo)
->> Petit `npm run test`
+>> Petit `npm run test` (n'hésitez pas à mettre des petits console.log dans les fichiers de test pour vérifier les résultats de vos propres yeux)
 
 ## Features
 
