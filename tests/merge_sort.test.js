@@ -57,7 +57,7 @@ describe("isSorted", () => {
   });
 
   it("should return false if an array is not sorted", () => {
-    arrays.forEach((array, id) => {
+    arrays.forEach((array) => {
       if (!array.alreadySorted) expect(isSorted(array.notSorted)).toBe(false);
     });
   });
